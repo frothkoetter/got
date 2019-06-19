@@ -13,8 +13,21 @@ Modify the default files to get started with your own project.
 will pip install our dependencies, primarily the scikit-learn library.
 * `fit.py` -- A model training example to be run as an experiment. Generates the
 model.pkl file that contains the fitted parameters of our model.
-* `predict.py` --  A sample function to be deployed as a model. Uses `model.pkl`
+* `predict_alt.py` --  A sample function to be deployed as a model. Uses `model.pkl` 
 produced by `fit.py` to make predictions about petal width.
+
+
+Create Model:
+
+function name: predict
+
+Example Input: 
+{
+ "name": "Jon Snow",
+ "age": 22,
+ "numDeadRelations": 12,
+ "popularity": 0.8
+}
 
 ## Instructions for Sessions
 1. Click "Open Workbench".
